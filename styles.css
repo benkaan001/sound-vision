@@ -5,9 +5,10 @@
 }
 
 body {
-  background-color: #161616;
+  background-color: #ff9900;
   font-family: 'Neutral Face';
-  color: #fff;
+
+  color: #0f0f0f;
 }
 
 .wrapper {
@@ -32,7 +33,7 @@ body {
   height: 70px;
   margin: 0px 3px;
   padding: 0px 1px;
-  background-color: rgb(221, 221, 221);
+  background-color: #0f0f0f;
   animation: createWave 0.5s infinite alternate;
 }
 
@@ -41,9 +42,10 @@ h1 {
   font-weight: bolder;
   letter-spacing: 1.5px;
 }
+
 p {
   font-size: 12px;
-  color: rgb(134, 134, 134);
+  color: #0f0f0f;
   letter-spacing: 0.8px;
 }
 

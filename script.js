@@ -1,6 +1,10 @@
 function play() {
   //   console.log('paused');
 
+  document.querySelector('.track').paused
+    ? document.querySelector('.track').play()
+    : document.querySelector('.track').pause();
+
   document.querySelector('.wire-1').style.animationPlayState === 'paused'
     ? (document.querySelector('.wire-1').style.animationPlayState = 'running')
     : (document.querySelector('.wire-1').style.animationPlayState = 'paused');

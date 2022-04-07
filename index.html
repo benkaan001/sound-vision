@@ -5,12 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sound Vision</title>
+
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="wrapper">
-      <h1>SOUND VISION ( 🎶 )</h1>
-      <div class="audio" onclick="play()">
+      <h1>
+        SOUND VISION (<img
+          src="https://img.icons8.com/color/48/000000/sound-cloud-.png"
+        />)
+      </h1>
+
+      <div class="audio">
         <div class="audio-wire wire-1"></div>
         <div class="audio-wire wire-2"></div>
         <div class="audio-wire wire-3"></div>
@@ -21,9 +27,9 @@
         <div class="audio-wire wire-8"></div>
         <div class="audio-wire wire-9"></div>
       </div>
-      <p>CLICK HERE TO PLAY OR PAUSE</p>
+      <p onclick="play()">CLICK HERE TO PLAY / PAUSE</p>
     </div>
-    <audio src="./wait.mp3" id="track" loop autoplay controls></audio>
+    <audio src="./assets/track.m4a" class="track" loop autoplay></audio>
     <script src="./script.js"></script>
   </body>
 </html>
