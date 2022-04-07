@@ -10,7 +10,7 @@
   <body>
     <div class="wrapper">
       <h1>SOUND VISION ( 🎶 )</h1>
-      <div class="audio">
+      <div class="audio" onclick="play()">
         <div class="audio-wire wire-1"></div>
         <div class="audio-wire wire-2"></div>
         <div class="audio-wire wire-3"></div>
@@ -23,6 +23,7 @@
       </div>
       <p>CLICK HERE TO PLAY OR PAUSE</p>
     </div>
+    <audio src="./wait.mp3" id="track" loop autoplay controls></audio>
     <script src="./script.js"></script>
   </body>
 </html>

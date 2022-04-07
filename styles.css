@@ -33,7 +33,7 @@ body {
   margin: 0px 3px;
   padding: 0px 1px;
   background-color: rgb(221, 221, 221);
-  animation: animateUpDown 0.5s infinite alternate;
+  animation: createWave 0.5s infinite alternate;
 }
 
 h1 {
@@ -75,7 +75,7 @@ p {
   animation-delay: 50ms;
 }
 
-@keyframes animateUpDown {
+@keyframes createWave {
   to {
     height: 90%;
   }
