@@ -25,7 +25,7 @@
 
 You can acccess the deployed page [here](https://benkaan001.github.io/sound-vision/).
 
-![demo gif](https://github.com/benkaan001/sound-vision/blob/main/src/assets/sound-vision.gif)
+![demo gif](https://github.com/benkaan001/sound-vision/blob/main/assets/sound-vision.gif)
 
 ## Contributing
 
