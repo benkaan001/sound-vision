@@ -1,6 +1,4 @@
 function play() {
-  //   console.log('paused');
-
   document.querySelector('.track').paused
     ? document.querySelector('.track').play()
     : document.querySelector('.track').pause();
