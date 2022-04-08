@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +8,7 @@
 
 body {
   background-color: #ff9900;
-  font-family: 'Neutral Face';
+  font-family: 'Neutral Face', 'Bebas Neue', cursive;
 
   color: #0f0f0f;
 }
