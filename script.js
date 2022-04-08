@@ -3,39 +3,23 @@ function play() {
     ? document.querySelector('.track').play()
     : document.querySelector('.track').pause();
 
-  document.querySelector('.wire-1').style.animationPlayState === 'paused'
-    ? (document.querySelector('.wire-1').style.animationPlayState = 'running')
-    : (document.querySelector('.wire-1').style.animationPlayState = 'paused');
+  let wires = [
+    'wire-1',
+    'wire-2',
+    'wire-3',
+    'wire-4',
+    'wire-5',
+    'wire-6',
+    'wire-7',
+    'wire-8',
+    'wire-9',
+  ];
 
-  document.querySelector('.wire-2').style.animationPlayState === 'paused'
-    ? (document.querySelector('.wire-2').style.animationPlayState = 'running')
-    : (document.querySelector('.wire-2').style.animationPlayState = 'paused');
-
-  document.querySelector('.wire-3').style.animationPlayState === 'paused'
-    ? (document.querySelector('.wire-3').style.animationPlayState = 'running')
-    : (document.querySelector('.wire-3').style.animationPlayState = 'paused');
-
-  document.querySelector('.wire-4').style.animationPlayState === 'paused'
-    ? (document.querySelector('.wire-4').style.animationPlayState = 'running')
-    : (document.querySelector('.wire-4').style.animationPlayState = 'paused');
-
-  document.querySelector('.wire-5').style.animationPlayState === 'paused'
-    ? (document.querySelector('.wire-5').style.animationPlayState = 'running')
-    : (document.querySelector('.wire-5').style.animationPlayState = 'paused');
-
-  document.querySelector('.wire-6').style.animationPlayState === 'paused'
-    ? (document.querySelector('.wire-6').style.animationPlayState = 'running')
-    : (document.querySelector('.wire-6').style.animationPlayState = 'paused');
-
-  document.querySelector('.wire-7').style.animationPlayState === 'paused'
-    ? (document.querySelector('.wire-7').style.animationPlayState = 'running')
-    : (document.querySelector('.wire-7').style.animationPlayState = 'paused');
-
-  document.querySelector('.wire-8').style.animationPlayState === 'paused'
-    ? (document.querySelector('.wire-8').style.animationPlayState = 'running')
-    : (document.querySelector('.wire-8').style.animationPlayState = 'paused');
-
-  document.querySelector('.wire-9').style.animationPlayState === 'paused'
-    ? (document.querySelector('.wire-9').style.animationPlayState = 'running')
-    : (document.querySelector('.wire-9').style.animationPlayState = 'paused');
+  for (let i = 0; i < wires.length; i++) {
+    document.querySelector(`.${wires[i]}`).style.animationPlayState === 'paused'
+      ? (document.querySelector(`.${wires[i]}`).style.animationPlayState =
+          'running')
+      : (document.querySelector(`.${wires[i]}`).style.animationPlayState =
+          'paused');
+  }
 }
